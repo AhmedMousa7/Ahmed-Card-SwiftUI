@@ -2,4 +2,4 @@
 This is my card info created using Swift UI
 
 # Screenshot
-![Alt text](AhmedCard/app-screenshot.png?raw=true "Optional Title")
+<img src="https://raw.githubusercontent.com/AhmedMousa7/Ahmed-sCard-iOS/main/AhmedCard/app-screenshot.png" alt="Screenshot" border="0" width=299 height=650>
