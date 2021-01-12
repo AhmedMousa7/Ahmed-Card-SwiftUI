@@ -14,6 +14,7 @@
 		CB33EE2E25ADDE2E00547A46 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB33EE2D25ADDE2E00547A46 /* Cookie-Regular.ttf */; };
 		CB33EE3125ADFBF600547A46 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33EE3025ADFBF600547A46 /* InfoView.swift */; };
 		CB33EE3625ADFE9600547A46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33EE3525ADFE9600547A46 /* Constants.swift */; };
+		CB33EE3C25AE088A00547A46 /* app-screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = CB33EE3B25AE088A00547A46 /* app-screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CB33EE2D25ADDE2E00547A46 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		CB33EE3025ADFBF600547A46 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		CB33EE3525ADFE9600547A46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CB33EE3B25AE088A00547A46 /* app-screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-screenshot.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		CB33EE0525ADD4B800547A46 /* AhmedCard */ = {
 			isa = PBXGroup;
 			children = (
+				CB33EE3B25AE088A00547A46 /* app-screenshot.png */,
 				CB33EE2825ADDD2600547A46 /* Fonts */,
 				CB33EE0625ADD4B800547A46 /* AhmedCardApp.swift */,
 				CB33EE0825ADD4B800547A46 /* ContentView.swift */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB33EE0E25ADD4BA00547A46 /* Preview Assets.xcassets in Resources */,
+				CB33EE3C25AE088A00547A46 /* app-screenshot.png in Resources */,
 				CB33EE0B25ADD4BA00547A46 /* Assets.xcassets in Resources */,
 				CB33EE2E25ADDE2E00547A46 /* Cookie-Regular.ttf in Resources */,
 			);
