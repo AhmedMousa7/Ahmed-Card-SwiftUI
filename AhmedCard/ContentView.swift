@@ -22,17 +22,23 @@ struct ContentView: View {
                     .overlay(
                         Circle().stroke(Color.white, lineWidth: 4)
                     )
-                Text("Ahmed Mousa")
+                Text(K.name)
                     .font(.custom("Cookie-Regular", size: 48))
                     .foregroundColor(.white)
-                Text("Mobile Engineer")
+                Text(K.title)
                     .font(.system(size: 23))
                     .foregroundColor(.white)
                 Divider()
-                InfoView(text: "ahmed7mousa@gmail.com", imageName: "envelope.fill")
+                InfoView(text: K.email, imageName: "envelope.fill")
                     .padding(10)
-                InfoView(text: "+201067794799", imageName: "phone.fill")
+                    .onTapGesture {
+                        openMailApp(email: K.email)
+                    }
+                InfoView(text: K.mobile, imageName: "phone.fill")
                     .padding(10)
+                    .onTapGesture {
+                        openDialApp(number: K.mobile)
+                    }
             }
         }
     }
@@ -41,5 +47,17 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+private func openMailApp(email: String) {
+    if let url = URL(string: "mailto:\(email)") {
+        UIApplication.shared.open(url)
+    }
+}
+
+private func openDialApp(number: String)  {
+    if let url = URL(string: "tel://" + number) {
+        UIApplication.shared.open(url)
     }
 }

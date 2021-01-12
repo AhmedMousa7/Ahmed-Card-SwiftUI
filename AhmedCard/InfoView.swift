@@ -21,6 +21,7 @@ struct InfoView: View {
                         .foregroundColor(
                             Color(red: 0.09, green: 0.63, blue: 0.52))
                     Text(text)
+                        .foregroundColor(.black)
                 }
             )
     }

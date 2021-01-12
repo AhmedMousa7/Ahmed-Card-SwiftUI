@@ -13,10 +13,11 @@
 		CB33EE0E25ADD4BA00547A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB33EE0D25ADD4BA00547A46 /* Preview Assets.xcassets */; };
 		CB33EE2E25ADDE2E00547A46 /* Cookie-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB33EE2D25ADDE2E00547A46 /* Cookie-Regular.ttf */; };
 		CB33EE3125ADFBF600547A46 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33EE3025ADFBF600547A46 /* InfoView.swift */; };
+		CB33EE3625ADFE9600547A46 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB33EE3525ADFE9600547A46 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB33EE0325ADD4B800547A46 /* AhmedCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AhmedCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB33EE0325ADD4B800547A46 /* Ahmed'sCard-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ahmed'sCard-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB33EE0625ADD4B800547A46 /* AhmedCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhmedCardApp.swift; sourceTree = "<group>"; };
 		CB33EE0825ADD4B800547A46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB33EE0A25ADD4BA00547A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		CB33EE0F25ADD4BA00547A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB33EE2D25ADDE2E00547A46 /* Cookie-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cookie-Regular.ttf"; sourceTree = "<group>"; };
 		CB33EE3025ADFBF600547A46 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		CB33EE3525ADFE9600547A46 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,7 @@
 		CB33EE0425ADD4B800547A46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB33EE0325ADD4B800547A46 /* AhmedCard.app */,
+				CB33EE0325ADD4B800547A46 /* Ahmed'sCard-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +61,11 @@
 				CB33EE2825ADDD2600547A46 /* Fonts */,
 				CB33EE0625ADD4B800547A46 /* AhmedCardApp.swift */,
 				CB33EE0825ADD4B800547A46 /* ContentView.swift */,
+				CB33EE3025ADFBF600547A46 /* InfoView.swift */,
 				CB33EE0A25ADD4BA00547A46 /* Assets.xcassets */,
 				CB33EE0F25ADD4BA00547A46 /* Info.plist */,
 				CB33EE0C25ADD4BA00547A46 /* Preview Content */,
-				CB33EE3025ADFBF600547A46 /* InfoView.swift */,
+				CB33EE3525ADFE9600547A46 /* Constants.swift */,
 			);
 			path = AhmedCard;
 			sourceTree = "<group>";
@@ -86,9 +89,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB33EE0225ADD4B800547A46 /* AhmedCard */ = {
+		CB33EE0225ADD4B800547A46 /* Ahmed'sCard-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB33EE1225ADD4BA00547A46 /* Build configuration list for PBXNativeTarget "AhmedCard" */;
+			buildConfigurationList = CB33EE1225ADD4BA00547A46 /* Build configuration list for PBXNativeTarget "Ahmed'sCard-iOS" */;
 			buildPhases = (
 				CB33EDFF25ADD4B800547A46 /* Sources */,
 				CB33EE0025ADD4B800547A46 /* Frameworks */,
@@ -98,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = AhmedCard;
+			name = "Ahmed'sCard-iOS";
 			productName = AhmedCard;
-			productReference = CB33EE0325ADD4B800547A46 /* AhmedCard.app */;
+			productReference = CB33EE0325ADD4B800547A46 /* Ahmed'sCard-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CB33EDFE25ADD4B800547A46 /* Build configuration list for PBXProject "AhmedCard" */;
+			buildConfigurationList = CB33EDFE25ADD4B800547A46 /* Build configuration list for PBXProject "Ahmed'sCard-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB33EE0225ADD4B800547A46 /* AhmedCard */,
+				CB33EE0225ADD4B800547A46 /* Ahmed'sCard-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -156,6 +159,7 @@
 				CB33EE0925ADD4B800547A46 /* ContentView.swift in Sources */,
 				CB33EE3125ADFBF600547A46 /* InfoView.swift in Sources */,
 				CB33EE0725ADD4B800547A46 /* AhmedCardApp.swift in Sources */,
+				CB33EE3625ADFE9600547A46 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB33EDFE25ADD4B800547A46 /* Build configuration list for PBXProject "AhmedCard" */ = {
+		CB33EDFE25ADD4B800547A46 /* Build configuration list for PBXProject "Ahmed'sCard-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB33EE1025ADD4BA00547A46 /* Debug */,
@@ -332,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB33EE1225ADD4BA00547A46 /* Build configuration list for PBXNativeTarget "AhmedCard" */ = {
+		CB33EE1225ADD4BA00547A46 /* Build configuration list for PBXNativeTarget "Ahmed'sCard-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CB33EE1325ADD4BA00547A46 /* Debug */,
